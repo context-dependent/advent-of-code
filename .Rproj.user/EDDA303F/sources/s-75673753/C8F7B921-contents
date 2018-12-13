@@ -1,0 +1,37 @@
+if(!require(pacman)) install.packages("pacman")
+
+pacman::p_load(
+  "tidyverse"
+)
+
+
+input <- readLines("day-05/input.txt")
+
+
+pattern <- paste0(
+  str_c(letters, LETTERS, collapse = "|"), "|",
+  str_c(LETTERS, letters, collapse = "|")
+)
+
+
+react <- function(polymer_string) {
+  
+  in_length <- nchar(polymer_string)
+  
+  res <- polymer_string %>% str_remove_all(pattern)
+  
+  out_length <- nchar(res)
+  
+  if(in_length == out_length) {
+    return(res)
+  } 
+  
+  bars <- ceiling((in_length - out_length) / 500)
+  
+  react(res)
+  
+}
+
+ans_01 <- react(input) %>% nchar()
+
+

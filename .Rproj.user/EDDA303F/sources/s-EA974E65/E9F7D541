@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544719959616.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E9F7D541",
+    "lastKnownWriteTime" : 1544720882,
+    "last_content_update" : 1544720882542,
+    "path" : "~/Project Notes/gRowth/advent-of-code/day-05/src.R",
+    "project_path" : "day-05/src.R",
+    "properties" : {
+        "cursorPosition" : "49,21",
+        "scrollLine" : "34",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

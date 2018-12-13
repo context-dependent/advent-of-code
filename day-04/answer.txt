@@ -1,0 +1,2 @@
+Answer 1: The sleepiest guard checksum = 119835
+Answer 2: The sleepiest minute checksum = 12725
